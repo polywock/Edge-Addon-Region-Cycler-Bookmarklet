@@ -8,6 +8,6 @@ Useful for developers who have an Edge extension and want to find all the review
 
 1. To create the bookmarklet, edit any existing bookmarklet and change the URL to the code inside `bookmarklet.js`. For name, choose `EDGECYCLE` or whatever. 
 1. Open any Edge addon page. For example, [Global Speed.](https://microsoftedge.microsoft.com/addons/detail/global-speed/mjhlabbcmjflkpjknnicihkfnmbdfced) (my extension).
-1. Click on the bookmarklet. 
-    - Note: First time you click on bookmarklet, if there's a region already selected, it will ask if you want to start from the first region. 
-    - Keep clicking until it tells you it found reviews on the current region. If it did, read the reviews. Repeat until finished checking all regions.  
+2. Once bookmarklet is clicked, it will either...
+    - If current region has no reviews, it will cycle to next region.  
+    - If current region has reviews, it will ask you if you want to cycle to next region. Click "Cancel" if you haven't read them yet. Otherwise, click "Ok" to cycle to next region. 
