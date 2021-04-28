@@ -15,7 +15,7 @@ javascript:(() => {
     };
 
 	if (!restart) {
-		if (nextIndex > regions.length) { alert("Finished"); return; }
+		if (nextIndex >= regions.length) { alert("Finished"); return; }
 	    if (loaded && nextIndex !== 0 && document.querySelectorAll("#review-list > div[role='listitem']").length && !confirm("Reviews found. Continue to next region?")) { return };  
     }
 
