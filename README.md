@@ -12,6 +12,8 @@ Useful for developers who have an Edge extension and want to find all the review
     - If current region has no reviews, it will cycle to next region.  
     - If current region has reviews, it will ask you if you want to cycle to next region. Click "Cancel" if you haven't read them yet. Otherwise, click "Ok" to cycle to next region. 
 
+Warning: Don't click the bookmarklet too fast, otherwise "Reviews found" prompt doesn't show up. 
+
 
 
 https://user-images.githubusercontent.com/31208859/116351149-21a63700-a7c1-11eb-98a9-c2f8573b8e4b.mov
