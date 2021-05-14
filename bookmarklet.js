@@ -248,7 +248,7 @@ javascript:(() => {
 	
 	
 	let regionKeys = Object.keys(regions);
-	let regionNames = Object.values(regions);
+	let regionNames = Object.values(regions).map(v => v.replace(/\s/g, "_"));
 
 	if (!document.URL.toLowerCase().includes("microsoftedge.microsoft.com/addons")) {
 		alert("Bookmarklet must be run on Edge Addon storage pages.");
