@@ -270,7 +270,7 @@ javascript:(() => {
 	}
 
 	url.searchParams.delete("gl");
-    url.searchParams.delete("pock");
+	url.searchParams.delete("pock");
 	url.searchParams.set("gl", regionKeys[nextIndex]);
 	url.searchParams.set("pock", regionNames[nextIndex]); 
 	window.location.href = url.toString();
