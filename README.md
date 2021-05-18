@@ -1,5 +1,15 @@
+# Archived
+### Replaced with https://github.com/polywock/all-edge-extension-reviews
+
+|
+
+|
+
+|
+
+
 ## Edge Addon Region Cycler Bookmarklet
-### Cycle between available regions to find all reviews for an Edge addon. 
+#### Cycle between available regions to find all reviews for an Edge addon. 
 
 The Edge Addon store only shows reviews for a particular region. You need to change the `gl=` URL parameter to change the region. This bookmarklet when clicked will cycle to next region. Keep clicking the bookmarklet until it warns you reviews are found.
 
