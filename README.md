@@ -11,7 +11,7 @@
 ## Edge Addon Region Cycler Bookmarklet
 #### Cycle between available regions to find all reviews for an Edge addon. 
 
-The Edge Addon store only shows reviews for a particular region. You need to change the `gl=` URL parameter to change the region. This bookmarklet when clicked will cycle to next region. Keep clicking the bookmarklet until it warns you reviews are found.
+The Edge Addon store only shows reviews for a particular region. You need to change the `gl=` URL parameter to change the region. This bookmarklet when clicked will cycle to next region. Keep clicking the bookmark until it warns you reviews are found.
 
 Useful for developers who have an Edge extension and want to find all the reviews. 
 
